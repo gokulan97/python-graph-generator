@@ -1,0 +1,8 @@
+digraph G {
+node [width=.3,height=.3,shape=circle,style=filled,color=skyblue];
+overlap="false";
+rankdir="LR";
+      intermediates -> i [dir=none,label="2",penwidth=2,color=black];
+      i -> n [dir=none,label="2",penwidth=2,color=black];
+      1 -> intermediates [dir=none,label="2",penwidth=2,color=black];
+}
